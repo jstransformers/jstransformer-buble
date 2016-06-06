@@ -1,1 +1,11 @@
-{}
+{
+  "target": {
+    "chrome": 48,
+    "firefox": 44
+  },
+  "transforms": {
+    "arrow": true,
+    "modules": false,
+    "dangerousForOf": true
+  }
+}

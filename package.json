@@ -1,7 +1,7 @@
 {
-  "name": "jstransformer-foo",
+  "name": "jstransformer-buble",
   "version": "0.0.0",
-  "description": "Foo support for JSTransformers.",
+  "description": "Buble support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
@@ -20,11 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-foo.git"
+    "url": "https://github.com/jstransformers/jstransformer-buble.git"
   },
   "author": {
     "name": "JSTransformers Team",
     "url": "http://github.com/orgs/jstransformers/people"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "buble": "^0.10.6"
+  }
 }

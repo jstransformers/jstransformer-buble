@@ -1,9 +1,11 @@
 'use strict';
 
-exports.name = 'foo';
-exports.inputFormats = ['foo', 'foobar'];
-exports.outputFormat = 'html';
+var buble = require('buble');
+
+exports.name = 'buble';
+exports.outputFormat = 'js';
 
 exports.render = function (str, options) {
-  return str;
+  var out = buble.transform(str, options);
+  return out.code;
 }

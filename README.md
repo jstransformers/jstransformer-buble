@@ -1,30 +1,23 @@
-# JSTransformer Boilerplate
+# jstransformer-buble
 
-Use JSTransformer Boilerplate to create and update transformers.
+[Buble](https://buble.surge.sh) support for [JSTransformers](http://github.com/jstransformers).
 
-1. Visit [the Boilerplate Wiki](https://github.com/jstransformers/boilerplate/wiki) on how to get started
-2. Remove this top notice from any transformers
-
-# jstransformer-foo
-
-[Foo](http://example.com) support for [JSTransformers](http://github.com/jstransformers).
-
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-foo/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-foo?branch=master)
-[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-foo/master.svg)](http://david-dm.org/jstransformers/jstransformer-foo)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-foo.svg)](https://www.npmjs.org/package/jstransformer-foo)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-buble/master.svg)](https://travis-ci.org/jstransformers/jstransformer-buble)
+[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-buble/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-buble?branch=master)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-buble/master.svg)](http://david-dm.org/jstransformers/jstransformer-buble)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-buble.svg)](https://www.npmjs.org/package/jstransformer-buble)
 
 ## Installation
 
-    npm install jstransformer-foo
+    npm install jstransformer-buble
 
 ## API
 
 ```js
-var foo = require('jstransformer')(require('jstransformer-foo'))
+var buble = require('jstransformer')(require('jstransformer-buble'))
 
-foo.render('blah').body
-//=> 'blah'
+buble.render('const answer = () => 42;').body
+//=> 'var answer = function () { return 42; };'
 ```
 
 ## License
