@@ -9,7 +9,7 @@
     "index.js"
   ],
   "dependencies": {
-    "buble": "^0.12.3"
+    "buble": "0.x"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
