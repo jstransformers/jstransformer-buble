@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.1: 2016-11-16
+
+- Update Boilerplate
+
 ## v0.2.0: 2016-10-13
 
 - Loosen the dependency requirement so that all Bublé versions that satisfy 0.x
