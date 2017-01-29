@@ -3,7 +3,7 @@
     "buble": "0.x"
   },
   "name": "jstransformer-buble",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Buble support for JSTransformers.",
   "keywords": [
     "jstransformer"

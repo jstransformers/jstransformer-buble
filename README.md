@@ -2,10 +2,10 @@
 
 [Buble](https://buble.surge.sh) support for [JSTransformers](http://github.com/jstransformers).
 
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
-[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-foo/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-foo)
-[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-foo/master.svg)](http://david-dm.org/jstransformers/jstransformer-foo)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-foo.svg)](https://www.npmjs.org/package/jstransformer-foo)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-buble/master.svg)](https://travis-ci.org/jstransformers/jstransformer-buble)
+[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-buble/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-buble)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-buble/master.svg)](http://david-dm.org/jstransformers/jstransformer-buble)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-buble.svg)](https://www.npmjs.org/package/jstransformer-buble)
 
 ## Installation
 
