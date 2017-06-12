@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "buble": "0.x"
+    "buble": "^0.15.2"
   },
   "name": "jstransformer-buble",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Buble support for JSTransformers.",
   "keywords": [
     "jstransformer"
@@ -13,7 +13,7 @@
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.17.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",

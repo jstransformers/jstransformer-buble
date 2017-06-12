@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.0: 2017-06-12
+
+- Update dependencies
+
 ## v0.2.2: 2017-01-29
 
 - Fix documentation
