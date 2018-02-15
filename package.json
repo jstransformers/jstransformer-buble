@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "buble": "^0.15.2"
+    "buble": "^0.19.3"
   },
   "name": "jstransformer-buble",
   "version": "0.3.0",
